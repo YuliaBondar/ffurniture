@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE HOUSE☕️</title>
+    <link rel="stylesheet" href="D:\My works\js обучение\css_code1\main.css">
+    <script src="D:\My works\js обучение\.vscode\main.js"></script>
+    <script src="D:\My works\js обучение\.vscode\node.js"></script>
+    <link rel="icon" href="D:\My works\js обучение\photo\tea.jpg"
+    type="D:\My works\js обучение\photo\tea.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
+</head>
+<body onload="menu()">
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="" class="logo">
+                <img src="D:\My works\js обучение\photo\logo.jpg" width="100px" height="65px" alt="#" class="logo__img">
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-items"><a href="#" class="menu__list-link" onclick="fav_coffee()">Favorite coffee</a></li>
+                    <li class="menu__list-items"><a href="#" class="menu__list-link" onclick="about()">About</a></li>
+                    <li class="menu__list-items"><a href="#" class="menu__list-link">Coffee House</a></li>
+                    <li class="menu__list-items"><a href="#" class="menu__list-link">Contact app</a></li>
+
+                </ul>
+            </nav>
+            <a  onclick="showCoffee()"  class="menu_1">Menu ☕️</a>
+        </div>
+    </header>
+    
+    <div id="like_button_container"></div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="caption"></div>
+      </div>
+      
+      <!-- Контейнер для фото -->
+      <div id="photo-container" style="margin-bottom: 50px;"></div>
+      
+    <div id="photo-container"></div>
+    <div id="app"></div>
+    <div class="telephone"></div>
+   
+    <!-- <canvas id="canvas" width="400" height="400"></canvas>
+    <select id="shapeSelect">
+        <option value="circle">Круг</option>
+        <option value="square">Квадрат</option>
+        <option value="triangle">Треугольник</option>
+    </select>
+    <button onclick="drawShape()">Нарисовать</button>
+    <script src="node.js"></script> -->
+    
+    
+    <div class="mainph">
+        <footer>
+            <p class="text"><b style="color:#E1D4C9">Sip, Savor, Smile.</b><br><b style="color:#B0907A">It`s coffee time!</b><br>
+                <a href="#"style="color:#B0907A" class="social-link"><i class="fab fa-telegram"></i></a>
+                <a style="color:#B0907A" href="https://instagram.com/bondarjuliaa_?igshid=OGQ5ZDc2ODk2ZA==" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a style="color:#B0907A" href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </p>
+            <!-- <img src="D:/My works/js обучение/photo/icon.svg" alt="img"> -->
+            <p class="contact"><b>Contact about us</b><br><br><img src="D:/My works/js обучение/photo/pin-alt.svg"> Locate: Minsk<br><img src="D:/My works/js обучение/photo/phone.svg"> Number: +375(29)-20-398-54<br><img src="D:/My works/js обучение/photo/clock.svg"> Mond-Sut: 9:00-23:00</p>
+        </footer>
+    </div>
+      
+</body>
+</html>
